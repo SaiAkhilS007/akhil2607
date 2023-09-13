@@ -25,6 +25,17 @@ Examples are **Videos, Text Messages, Chats, Webpages and images.**
 # 6V’s of Big Data
 <img src="https://github.com/akhil2607/akhil2607/assets/44285279/106edaca-b287-4cc7-b078-b4203a071c5d" width="500" height="200">
 
+The Characteristics of Big Data are defined in form of “6Vs” :
+
+### 1. Volume:
+Just the word "Big Data" makes you think of something very big. There is a lot of info in volume. To figure out how much info is worth, its size is very important. "Big Data" refers to very large amounts of data. And this means that the amount of data determines whether it can really be called "Big Data" or not. So, when working with "Big Data," it's important to think about a typical "Volume." Big data is a type of data that is so big that it can't fit on a single computer. To keep, handle, and examine it, you need special tools and systems.
+
+**Example:** In the year 2016, the estimated global mobile traffic was 6.2 Exabytes (6.2 billion GB) per month. Also, by the year 2020 we will have almost 40000 Exabytes of data. And now in 2023 we have 120 zettabytes. 
+
+### 2. Velocity:
+
+
+### 
 
 # Big Data Analysis Processing Pipeline 
 
