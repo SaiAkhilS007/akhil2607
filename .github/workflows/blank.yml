@@ -1,0 +1,30 @@
+name: Convert README to PDF
+
+on:
+  push:
+    branches:
+      - akhil2607  # Change this to your repository's default branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y python3-pip wkhtmltopdf
+          pip3 install weasyprint
+
+      - name: Convert README to PDF
+        run: |
+          weasyprint README.md README.pdf
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v2
+        with:
+          name: converted-pdf
+          path: README.pdf
